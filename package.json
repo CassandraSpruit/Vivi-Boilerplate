@@ -4,7 +4,9 @@
     "description": "General purpose boilerplate code for the Vivi framework",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack-cli",
+        "watch": "webpack-cli -w"
     },
     "repository": {
         "type": "git",
