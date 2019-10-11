@@ -7,10 +7,10 @@ const mainConfig = {
 		main: './src/app/index.ts'
 	},
 	devtool: 'inline-source-map',
-	// devServer: {
-	// 	contentBase: './dist',
-	// 	hot: true
-	// },
+	devServer: {
+		contentBase: './dist',
+		hot: true
+	},
 	module: {
 		rules: [
 			{

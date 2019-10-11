@@ -7,10 +7,11 @@ npm run build
 ```
 
 ## To Run
-1. Run build first
-2. Open dist/index.html
+This boilerplate uses webpack-dev-server to host a development server.
 
-**TODO:** Setup webpack dev server
+```bash
+npm start
+```
 
 ## To Test
 **TODO**

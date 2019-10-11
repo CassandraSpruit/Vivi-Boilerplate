@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack-cli",
-        "watch": "webpack-cli -w"
+        "watch": "webpack-cli -w",
+        "start": "webpack-dev-server"
     },
     "repository": {
         "type": "git",
@@ -25,7 +26,6 @@
     "homepage": "https://github.com/CassandraSpruit/Vivi-Boilerplate#readme",
     "devDependencies": {
         "@cspruit/vivi": "^2.3.3",
-        "@fortawesome/fontawesome-free": "^5.10.1",
         "css-loader": "^3.2.0",
         "html-loader": "^0.5.5",
         "html-webpack-plugin": "^3.2.0",
@@ -37,6 +37,7 @@
         "tsconfig-paths-webpack-plugin": "^3.2.0",
         "typescript": "^3.5.3",
         "webpack": "^4.39.1",
-        "webpack-cli": "^3.3.6"
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.8.2"
     }
 }
